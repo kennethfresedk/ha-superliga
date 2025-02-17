@@ -1,0 +1,17 @@
+{
+    "domain": "superliga",
+    "name": "Superliga result service",
+    "after_dependencies": [
+        "http"
+    ],
+    "codeowners": [
+        "@kennethfresedk"
+    ],
+    "config_flow": false,
+    "iot_class": "cloud_polling",
+    "issue_tracker": "",
+    "requirements": [
+        "aiohttp"
+    ],
+    "version": "0.1"
+}
